@@ -1,11 +1,18 @@
 // S01에서 고르고 주소(URL)로 넘기는 조건 값 — docs/SCREENS.md
 
+// hint = 버튼 아래 보조 문구 (docs/PLAN.md 결정 로그의 규칙과 맞춘다)
 export const MODES = [
-  { value: "car", label: "자가용" },
-  { value: "transit", label: "도보·대중교통" },
+  { value: "car", label: "자가용", hint: "주차 포함" },
+  { value: "transit", label: "도보·대중교통", hint: "원도심 위주" },
 ] as const;
 
 export const HOURS = [3, 6, 9] as const;
+
+export const HOUR_HINTS: Record<(typeof HOURS)[number], string> = {
+  3: "반나절",
+  6: "하루",
+  9: "알찬 하루",
+};
 
 // data/places.json 의 테마 값. `rest`는 숨긴다 (docs/PLAN.md 결정 로그)
 export const THEMES = [
