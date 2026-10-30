@@ -25,7 +25,7 @@ export default function CourseMap({ stops }: { stops: PlanStop[] }) {
 
     const points = stops.map((s) => [s.lat, s.lon] as L.LatLngTuple);
     // 방문 순서를 잇는 직선 — 실제 길이 아니다
-    L.polyline(points, { color: "#0969da", weight: 3, opacity: 0.7, dashArray: "6 6" }).addTo(map);
+    L.polyline(points, { color: "#2f6b4f", weight: 3, opacity: 0.7, dashArray: "6 6" }).addTo(map);
 
     stops.forEach((stop, i) => {
       const popup = document.createElement("div");

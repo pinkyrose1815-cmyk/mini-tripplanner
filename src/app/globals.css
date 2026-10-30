@@ -200,13 +200,18 @@ h1 {
   width: 100%;
   margin-bottom: 8px;
   padding: 14px;
-  border: 1px solid #1f2328;
-  border-radius: 8px;
+  border: 1.5px solid var(--primary);
+  border-radius: 12px;
   background: #ffffff;
-  color: #1f2328;
+  color: var(--primary);
   font: inherit;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.secondary:hover {
+  background: var(--tint);
 }
 
 .status {
@@ -227,14 +232,17 @@ h1 {
 .summary li {
   padding: 4px 10px;
   border-radius: 999px;
-  background: #ddf4ff;
-  color: #0550ae;
+  border: 1px solid #cfe3d7;
+  background: var(--tint);
+  color: var(--primary-dark);
   font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .notice {
   margin: 0 0 12px;
   padding: 10px 12px;
+  border-left: 4px solid var(--accent);
   border-radius: 8px;
   background: #fff8c5;
   color: #6f4e00;
@@ -255,14 +263,14 @@ h1 {
 .course-map {
   height: 240px;
   margin-bottom: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   isolation: isolate; /* Leaflet 레이어가 화면 다른 요소를 덮지 않게 */
 }
 
 .map-marker {
   border: 2px solid #ffffff;
   border-radius: 50%;
-  background: #1f2328;
+  background: var(--primary);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   color: #ffffff;
   font-size: 0.8125rem;
@@ -280,8 +288,8 @@ h1 {
 .travel {
   margin: 4px 0 4px 13px;
   padding-left: 22px;
-  border-left: 2px dotted #b0b7c0;
-  color: #57606a;
+  border-left: 2px dotted #9cc3ad;
+  color: var(--muted);
   font-size: 0.8125rem;
 }
 
@@ -296,7 +304,8 @@ h1 {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #1f2328;
+  background: var(--primary);
+  box-shadow: 0 1px 3px rgba(36, 84, 62, 0.3);
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 28px;
@@ -317,8 +326,8 @@ h1 {
   margin-left: 6px;
   padding: 1px 6px;
   border-radius: 4px;
-  background: #ffebe9;
-  color: #a40e26;
+  background: #fdf1dc;
+  color: #8a5a00;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: normal;
@@ -331,12 +340,14 @@ h1 {
 .narration {
   margin-bottom: 16px;
   padding: 14px 16px;
-  border-radius: 8px;
-  background: #f6f8fa;
+  border-left: 4px solid var(--primary);
+  border-radius: 12px;
+  background: var(--tint);
 }
 
 .narration h2 {
   margin: 0 0 6px;
+  color: var(--primary-dark);
   font-size: 0.9375rem;
 }
 
