@@ -108,7 +108,7 @@ h1 {
 
 .option {
   padding: 11px 16px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--primary);
   border-radius: 10px;
   background: var(--tint);
   color: #1f2328;
