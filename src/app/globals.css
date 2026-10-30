@@ -1,3 +1,13 @@
+/* 색 — 헤더 이미지의 숲 초록과 아침 햇빛 금색에서 가져옴 */
+:root {
+  --primary: #2f6b4f;
+  --primary-dark: #24543e;
+  --accent: #e0a23b;
+  --tint: #f1f6f3;
+  --border: #d0d7de;
+  --muted: #57606a;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -89,14 +99,38 @@ h1 {
   gap: 8px;
 }
 
+/* ②③ 같은 폭으로 나란히 놓는 분할 버튼 */
+.options.segmented {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
 .option {
-  padding: 10px 16px;
-  border: 1px solid #b0b7c0;
-  border-radius: 8px;
-  background: #ffffff;
+  padding: 11px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--tint);
   color: #1f2328;
   font: inherit;
+  font-weight: 500;
   cursor: pointer;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+
+.option:hover {
+  border-color: var(--primary);
+  background: #e3efe8;
+}
+
+.option:active,
+.primary:not(:disabled):active {
+  transform: scale(0.98);
 }
 
 .option.chip {
@@ -104,25 +138,54 @@ h1 {
 }
 
 .option[aria-pressed="true"] {
-  border-color: #0969da;
-  background: #0969da;
+  border-color: var(--primary);
+  background: var(--primary);
   color: #ffffff;
+  box-shadow: 0 2px 6px rgba(47, 107, 79, 0.3);
+}
+
+.option[aria-pressed="true"]:hover {
+  background: var(--primary-dark);
+}
+
+.option.chip[aria-pressed="true"]::before {
+  content: "✓ ";
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.option:focus-visible,
+.primary:focus-visible,
+.secondary:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .primary {
   width: 100%;
-  padding: 14px;
+  padding: 15px;
   border: none;
-  border-radius: 8px;
-  background: #1f2328;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #3a7d5c, var(--primary-dark));
+  box-shadow: 0 4px 12px rgba(36, 84, 62, 0.3);
   color: #ffffff;
   font: inherit;
   font-weight: bold;
   cursor: pointer;
+  transition:
+    box-shadow 0.15s,
+    transform 0.15s,
+    filter 0.15s;
+}
+
+.primary:not(:disabled):hover {
+  filter: brightness(1.08);
+  box-shadow: 0 6px 16px rgba(36, 84, 62, 0.35);
 }
 
 .primary:disabled {
-  background: #d0d7de;
+  background: #d8dee4;
+  box-shadow: none;
   color: #6e7781;
   cursor: not-allowed;
 }

@@ -32,7 +32,7 @@ export default function ConditionsForm() {
       {/* S01-② */}
       <section className="field">
         <h2>이동수단 <small>필수 · 하나만</small></h2>
-        <div className="options">
+        <div className="options segmented">
           {MODES.map((m) => (
             <button
               key={m.value}
@@ -50,7 +50,7 @@ export default function ConditionsForm() {
       {/* S01-③ */}
       <section className="field">
         <h2>여행 시간 <small>필수 · 하나만</small></h2>
-        <div className="options">
+        <div className="options segmented">
           {HOURS.map((h) => (
             <button
               key={h}
@@ -85,7 +85,7 @@ export default function ConditionsForm() {
 
       {/* S01-⑤ */}
       <button type="button" className="primary" disabled={!ready} onClick={makeCourse}>
-        코스 만들기
+        코스 만들기 <span aria-hidden="true">→</span>
       </button>
 
       {/* S01-⑥ */}
