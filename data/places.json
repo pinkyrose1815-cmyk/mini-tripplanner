@@ -1,0 +1,2210 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-28T05:40:26.603Z",
+    "count": 64,
+    "starSource": "placeholder"
+  },
+  "places": [
+    {
+      "id": "t125949",
+      "contentId": "125949",
+      "name": {
+        "ko": "공산성",
+        "en": "Gongsanseong Fortress",
+        "ja": "公山城",
+        "zh": "公山城"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "nature",
+        "cafe"
+      ],
+      "lat": 36.4632237,
+      "lon": 127.126011,
+      "region": "wondosim",
+      "stayMin": 90,
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 3000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 1,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t126681",
+      "contentId": "126681",
+      "name": {
+        "ko": "공주무령왕릉과왕릉원",
+        "en": "Royal Tombs of Muryeong and Wangneung-won",
+        "ja": "公州武寧王陵と王陵園",
+        "zh": "公州武宁王陵与王陵园"
+      },
+      "type": "spot",
+      "themes": [
+        "history"
+      ],
+      "lat": 36.4630908,
+      "lon": 127.1144131,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "09:00",
+      "close": "17:30",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 3000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.914,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t129787",
+      "contentId": "129787",
+      "name": {
+        "ko": "국립공주박물관",
+        "en": "Gongju National Museum",
+        "ja": "国立公州博物館",
+        "zh": "国立公州博物馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "activity"
+      ],
+      "lat": 36.4655934,
+      "lon": 127.1123031,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.896,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1184872",
+      "contentId": "1184872",
+      "name": {
+        "ko": "석장리박물관",
+        "en": "Seokjang-ri Museum",
+        "ja": "石壮里博物館",
+        "zh": "石壮里博物馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "activity"
+      ],
+      "lat": 36.4477636,
+      "lon": 127.1889636,
+      "region": "other",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "17:30",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 1300,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.509,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2525523",
+      "contentId": "2525523",
+      "name": {
+        "ko": "충청남도역사박물관",
+        "en": "Chungcheongnam-do Historical Museum",
+        "ja": "忠清南道歴史博物館",
+        "zh": "忠清南道历史博物馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history"
+      ],
+      "lat": 36.453763,
+      "lon": 127.1266077,
+      "region": "wondosim",
+      "stayMin": 30,
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.912,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t126849",
+      "contentId": "126849",
+      "name": {
+        "ko": "마곡사",
+        "en": "Magoksa Temple",
+        "ja": "麻谷寺",
+        "zh": "麻谷寺"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "nature",
+        "rest"
+      ],
+      "lat": 36.5588933,
+      "lon": 127.0120163,
+      "region": "magok",
+      "stayMin": 90,
+      "open": "00:00",
+      "close": "23:59",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t129557",
+      "contentId": "129557",
+      "name": {
+        "ko": "갑사",
+        "en": "Gapsa Temple",
+        "ja": "甲寺",
+        "zh": "甲寺"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "nature"
+      ],
+      "lat": 36.3656549,
+      "lon": 127.1861223,
+      "region": "gyeryong",
+      "stayMin": 90,
+      "open": "05:30",
+      "close": "20:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t125893",
+      "contentId": "125893",
+      "name": {
+        "ko": "동학사",
+        "en": "Donghaksa Temple",
+        "ja": "東鶴寺",
+        "zh": "东鹤寺"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "nature"
+      ],
+      "lat": 36.3533309,
+      "lon": 127.2190758,
+      "region": "gyeryong",
+      "stayMin": 90,
+      "open": "00:00",
+      "close": "23:59",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t125889",
+      "contentId": "125889",
+      "name": {
+        "ko": "신원사",
+        "en": "Sinwonsa Temple",
+        "ja": "新元寺",
+        "zh": "新元寺"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "rest"
+      ],
+      "lat": 36.3357096,
+      "lon": 127.1839615,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t127240",
+      "contentId": "127240",
+      "name": {
+        "ko": "천주교황새바위순교성지",
+        "en": "Hwangsaebawi Catholic Martyr Shrine",
+        "ja": "天主教黄鳥岩殉教聖地",
+        "zh": "天主教黄鸟岩殉教圣地"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "rest"
+      ],
+      "lat": 36.4638739,
+      "lon": 127.1200687,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.955,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s11",
+      "contentId": null,
+      "name": {
+        "ko": "공주한옥마을",
+        "en": "Gongju Hanok Village",
+        "ja": "公州韓屋村",
+        "zh": "公州韩屋村"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "cafe"
+      ],
+      "lat": 36.4645968,
+      "lon": 127.1085301,
+      "region": "wondosim",
+      "stayMin": 30,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.869,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2736822",
+      "contentId": "2736822",
+      "name": {
+        "ko": "유구색동수국정원",
+        "en": "Yugu Saekdong Hydrangea Garden",
+        "ja": "維求セクトンアジサイ庭園",
+        "zh": "维仇色童绣球花庭园"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "cafe"
+      ],
+      "lat": 36.555489,
+      "lon": 126.9543887,
+      "region": "magok",
+      "stayMin": 45,
+      "open": "00:00",
+      "close": "23:59",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s13",
+      "contentId": null,
+      "name": {
+        "ko": "계룡저수지",
+        "en": "Gyeryong Reservoir",
+        "ja": "鶏龍貯水池",
+        "zh": "鸡龙水库"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "rest"
+      ],
+      "lat": 36.3581031,
+      "lon": 127.1529679,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s14",
+      "contentId": null,
+      "name": {
+        "ko": "고마나루솔밭",
+        "en": "Gomanaru Pine Forest",
+        "ja": "コマナル松林",
+        "zh": "固麻渡口松林"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "rest",
+        "cafe"
+      ],
+      "lat": 36.4615026,
+      "lon": 127.1014004,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.816,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2524982",
+      "contentId": "2524982",
+      "name": {
+        "ko": "공주산림휴양마을",
+        "en": "Gongju Forest Recreation Village",
+        "ja": "公州森林休養村",
+        "zh": "公州森林休养村"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "rest"
+      ],
+      "lat": 36.4234616,
+      "lon": 127.1190677,
+      "region": "other",
+      "stayMin": 120,
+      "open": "10:00",
+      "close": "12:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 5000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.628,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s16",
+      "contentId": null,
+      "name": {
+        "ko": "공주산성시장문화공원",
+        "en": "Gongju Sanseong Market Culture Park",
+        "ja": "公州山城市場文化公園",
+        "zh": "公州山城市场文化公园"
+      },
+      "type": "spot",
+      "themes": [
+        "rest",
+        "cafe"
+      ],
+      "lat": 36.4570503,
+      "lon": 127.1229158,
+      "region": "wondosim",
+      "stayMin": 30,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.938,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s17",
+      "contentId": null,
+      "name": {
+        "ko": "공주목재문화체험장",
+        "en": "Gongju Wood Culture Experience Center",
+        "ja": "公州木材文化体験場",
+        "zh": "公州木材文化体验场"
+      },
+      "type": "spot",
+      "themes": [
+        "activity"
+      ],
+      "lat": 36.4220185,
+      "lon": 127.1204127,
+      "region": "other",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": 5000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.616,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t3036469",
+      "contentId": "3036469",
+      "name": {
+        "ko": "대장이랜드중장농촌체험휴양마을",
+        "en": "Daejangi Land Rural Experience and Recreation Village",
+        "ja": "テジャンイランド中長農村体験休養村",
+        "zh": "大将E-land中庄农村体验休养村"
+      },
+      "type": "spot",
+      "themes": [
+        "activity",
+        "nature"
+      ],
+      "lat": 36.3686501,
+      "lon": 127.1650303,
+      "region": "gyeryong",
+      "stayMin": 120,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 15000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.077,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1938262",
+      "contentId": "1938262",
+      "name": {
+        "ko": "계룡산상신농촌체험휴양마을",
+        "en": "Gyeryongsan Sangsin Rural Experience and Recreation Village",
+        "ja": "鶏龍山上新農村体験休養村",
+        "zh": "鸡龙山上新农村体验休养村"
+      },
+      "type": "spot",
+      "themes": [
+        "activity",
+        "nature"
+      ],
+      "lat": 36.3844632,
+      "lon": 127.2200689,
+      "region": "gyeryong",
+      "stayMin": 120,
+      "open": "10:00",
+      "close": "19:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 15000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2758880",
+      "contentId": "2758880",
+      "name": {
+        "ko": "아트센터고마",
+        "en": "Art Center Goma",
+        "ja": "アートセンター・コマ",
+        "zh": "艺术中心Goma"
+      },
+      "type": "culture",
+      "themes": [
+        "activity",
+        "rest"
+      ],
+      "lat": 36.4666736,
+      "lon": 127.1074328,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.858,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t130270",
+      "contentId": "130270",
+      "name": {
+        "ko": "임립미술관",
+        "en": "Limlip Art Museum",
+        "ja": "林立美術館",
+        "zh": "林立美术馆"
+      },
+      "type": "culture",
+      "themes": [
+        "cafe",
+        "rest"
+      ],
+      "lat": 36.3964545,
+      "lon": 127.1406196,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": "10:00",
+      "close": "17:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 5000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.372,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s22",
+      "contentId": null,
+      "name": {
+        "ko": "이미정갤러리",
+        "en": "Lee Mi-jeong Gallery",
+        "ja": "イ・ミジョンギャラリー",
+        "zh": "李美贞画廊"
+      },
+      "type": "culture",
+      "themes": [
+        "cafe",
+        "rest"
+      ],
+      "lat": 36.4527243,
+      "lon": 127.1225874,
+      "region": "wondosim",
+      "stayMin": 30,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.899,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s23",
+      "contentId": null,
+      "name": {
+        "ko": "대통길작은미술관",
+        "en": "Daetong-gil Small Art Museum",
+        "ja": "大通キル小さな美術館",
+        "zh": "大通街小美术馆"
+      },
+      "type": "culture",
+      "themes": [
+        "cafe",
+        "activity"
+      ],
+      "lat": 36.453105,
+      "lon": 127.122403,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.902,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s24",
+      "contentId": null,
+      "name": {
+        "ko": "자연미술관Ko",
+        "en": "Geumgang Nature Art Biennale (Yatoo)",
+        "ja": "自然美術館Ko",
+        "zh": "自然美术馆Ko"
+      },
+      "type": "culture",
+      "themes": [
+        "cafe",
+        "nature"
+      ],
+      "lat": 36.4536085,
+      "lon": 127.1236778,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": 3000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.909,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s25",
+      "contentId": null,
+      "name": {
+        "ko": "공주산성시장",
+        "en": "Gongju Sanseong Market",
+        "ja": "公州山城市場",
+        "zh": "公州山城市场"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food",
+        "activity"
+      ],
+      "lat": 36.4575705,
+      "lon": 127.1236341,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 10000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.945,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s26",
+      "contentId": null,
+      "name": {
+        "ko": "개성집공주점",
+        "en": "Gaeseongjib Gongju Branch",
+        "ja": "ケソンチプ 公州店",
+        "zh": "开城之家公州店"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4635339,
+      "lon": 127.122505,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.974,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t134174",
+      "contentId": "134174",
+      "name": {
+        "ko": "고마나루1999",
+        "en": "Gomanaru 1999",
+        "ja": "コマナル1999",
+        "zh": "固麻渡口1999"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4649789,
+      "lon": 127.1227318,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "20:00",
+      "closedDays": [
+        2
+      ],
+      "indoor": true,
+      "cost": 15000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.971,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2929481",
+      "contentId": "2929481",
+      "name": {
+        "ko": "공산성본가",
+        "en": "Gongsanseong Bonga",
+        "ja": "公山城本家",
+        "zh": "公山城本家"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4639695,
+      "lon": 127.1221439,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "09:30",
+      "close": "20:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 13000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.97,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2834381",
+      "contentId": "2834381",
+      "name": {
+        "ko": "베이커리밤마을",
+        "en": "Bakery Bammaeul",
+        "ja": "ベーカリー栗の里",
+        "zh": "栗子村面包店"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.4647566,
+      "lon": 127.1230132,
+      "region": "wondosim",
+      "stayMin": 30,
+      "open": "09:00",
+      "close": "21:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 8000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.974,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2749728",
+      "contentId": "2749728",
+      "name": {
+        "ko": "곡물집",
+        "en": "Gokmuljib",
+        "ja": "穀物集",
+        "zh": "谷物集"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe",
+        "rest"
+      ],
+      "lat": 36.449651,
+      "lon": 127.1195048,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "11:30",
+      "close": "18:30",
+      "closedDays": [
+        2,
+        3
+      ],
+      "indoor": true,
+      "cost": 9000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.865,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2877148",
+      "contentId": "2877148",
+      "name": {
+        "ko": "카페운암",
+        "en": "Cafe Unam",
+        "ja": "カフェ雲岩",
+        "zh": "云庵咖啡厅"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.554270416,
+      "lon": 127.0205427882,
+      "region": "magok",
+      "stayMin": 45,
+      "open": "11:00",
+      "close": "17:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 7000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2834395",
+      "contentId": "2834395",
+      "name": {
+        "ko": "에어산",
+        "en": "Air Mountain",
+        "ja": "エア山",
+        "zh": "Air Mountain"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.3661721598,
+      "lon": 127.2514646122,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": "10:00",
+      "close": "21:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 7000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2785875",
+      "contentId": "2785875",
+      "name": {
+        "ko": "카페보니비",
+        "en": "Cafe Bonnie Bee",
+        "ja": "カフェ・ボニビ",
+        "zh": "Bonibi咖啡厅"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.4027034234,
+      "lon": 127.2259077351,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": "12:00",
+      "close": "18:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 7000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.068,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2876900",
+      "contentId": "2876900",
+      "name": {
+        "ko": "로컬커피",
+        "en": "Local Coffee",
+        "ja": "ローカルコーヒー",
+        "zh": "Local Coffee"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.4586531118,
+      "lon": 127.1182776561,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "12:00",
+      "close": "21:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 7000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.928,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2876760",
+      "contentId": "2876760",
+      "name": {
+        "ko": "공다방",
+        "en": "Gong Dabang",
+        "ja": "コン茶房",
+        "zh": "公茶房"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.4650968654,
+      "lon": 127.1230659098,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": "12:00",
+      "close": "21:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 7000,
+      "parking": false,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.972,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2876999",
+      "contentId": "2876999",
+      "name": {
+        "ko": "어썸845",
+        "en": "Awesome 845",
+        "ja": "アサム845",
+        "zh": "Awesome 845"
+      },
+      "type": "cafe",
+      "themes": [
+        "cafe",
+        "food"
+      ],
+      "lat": 36.3594315497,
+      "lon": 127.2443775913,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": "10:00",
+      "close": "22:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 7000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2929827",
+      "contentId": "2929827",
+      "name": {
+        "ko": "도덕봉가든",
+        "en": "Dodeokbong Garden",
+        "ja": "トドッポンガーデン",
+        "zh": "道德峰庭院"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.3600843476,
+      "lon": 127.2501370232,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "22:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2929802",
+      "contentId": "2929802",
+      "name": {
+        "ko": "대부곱창",
+        "en": "Daebu Gopchang",
+        "ja": "テブコプチャン",
+        "zh": "大富烤牛肠"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4723267415,
+      "lon": 127.1360391933,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "17:00",
+      "close": "22:00",
+      "closedDays": [
+        0
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.887,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1305113",
+      "contentId": "1305113",
+      "name": {
+        "ko": "태화식당",
+        "en": "Taehwa Sikdang",
+        "ja": "泰華食堂",
+        "zh": "太华食堂"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.5564145895,
+      "lon": 127.0198427973,
+      "region": "magok",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "19:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2751281",
+      "contentId": "2751281",
+      "name": {
+        "ko": "장순루",
+        "en": "Jangsunru",
+        "ja": "長順楼",
+        "zh": "长顺楼"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.3592932811,
+      "lon": 127.142905765,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "14:50",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t800086",
+      "contentId": "800086",
+      "name": {
+        "ko": "예가",
+        "en": "Yega",
+        "ja": "イェガ",
+        "zh": "艺家"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4619670458,
+      "lon": 127.1433001623,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:30",
+      "close": "21:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.871,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2912905",
+      "contentId": "2912905",
+      "name": {
+        "ko": "양달가든",
+        "en": "Yangdal Garden",
+        "ja": "ヤンダルガーデン",
+        "zh": "阳达庭院"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4801111964,
+      "lon": 127.0933128051,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "21:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.71,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2876940",
+      "contentId": "2876940",
+      "name": {
+        "ko": "북경탕수육",
+        "en": "Bukgyeong Tangsuyuk",
+        "ja": "北京酢豚",
+        "zh": "北京糖醋肉"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4551008814,
+      "lon": 127.1250298818,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "08:30",
+      "close": "15:00",
+      "closedDays": [
+        1,
+        4
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.924,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2013675",
+      "contentId": "2013675",
+      "name": {
+        "ko": "밥꽃하나피었네",
+        "en": "Babkkot Hana Pieonne",
+        "ja": "ご飯花が一つ咲いたね",
+        "zh": "饭花盛开"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.3325304541,
+      "lon": 127.1780142339,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "20:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2736850",
+      "contentId": "2736850",
+      "name": {
+        "ko": "명성불고기",
+        "en": "Myeongseong Bulgogi",
+        "ja": "名声プルコギ",
+        "zh": "明星烤肉"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4582282833,
+      "lon": 127.125063127,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "21:00",
+      "closedDays": [
+        2
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.953,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2736871",
+      "contentId": "2736871",
+      "name": {
+        "ko": "매향",
+        "en": "Maehyang",
+        "ja": "メヒャン",
+        "zh": "梅香"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4655967798,
+      "lon": 127.1216382556,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "15:00",
+      "closedDays": [
+        2
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.961,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2876729",
+      "contentId": "2876729",
+      "name": {
+        "ko": "곰선생동태씨",
+        "en": "Gomseonsaeng Dongtaessi",
+        "ja": "コムソンセン・トンテシ",
+        "zh": "熊先生明太鱼"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4673691724,
+      "lon": 127.1432555751,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "10:00",
+      "close": "21:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.866,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2751025",
+      "contentId": "2751025",
+      "name": {
+        "ko": "고가네칼국수",
+        "en": "Gogane Kalguksu",
+        "ja": "コガネカルグクス",
+        "zh": "高家刀切面"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4534871596,
+      "lon": 127.1234967396,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "21:30",
+      "closedDays": [
+        0
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": false,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.908,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1946298",
+      "contentId": "1946298",
+      "name": {
+        "ko": "시장정육점식당",
+        "en": "Sijang Jeongyukjeom Sikdang",
+        "ja": "市場精肉店食堂",
+        "zh": "市场肉铺食堂"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4658245407,
+      "lon": 127.1222326368,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "15:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 12000,
+      "parking": false,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.963,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2929902",
+      "contentId": "2929902",
+      "name": {
+        "ko": "돈금정",
+        "en": "Dongeumjeong",
+        "ja": "トングムジョン",
+        "zh": "豚金亭"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.3577982026,
+      "lon": 127.2534979785,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "11:00",
+      "close": "21:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 12000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1859903",
+      "contentId": "1859903",
+      "name": {
+        "ko": "공주치즈스쿨",
+        "en": "Gongju Cheese School",
+        "ja": "公州チーズスクール",
+        "zh": "公州奶酪学校"
+      },
+      "type": "spot",
+      "themes": [
+        "activity"
+      ],
+      "lat": 36.5197577131,
+      "lon": 126.9458843737,
+      "region": "magok",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "17:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t1966992",
+      "contentId": "1966992",
+      "name": {
+        "ko": "한국문화연수원",
+        "en": "Korean Cultural Training Institute",
+        "ja": "韓国文化研修院",
+        "zh": "韩国文化研修院"
+      },
+      "type": "culture",
+      "themes": [
+        "activity"
+      ],
+      "lat": 36.5662355518,
+      "lon": 127.0103200886,
+      "region": "magok",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 3000,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t4080233",
+      "contentId": "4080233",
+      "name": {
+        "ko": "1967호서극장",
+        "en": "1967 Hoseo Cinema",
+        "ja": "1967湖西劇場",
+        "zh": "1967号西剧场"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "cafe"
+      ],
+      "lat": 36.4530458922,
+      "lon": 127.1237965003,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "12:00",
+      "close": "21:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 3000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.904,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t130560",
+      "contentId": "130560",
+      "name": {
+        "ko": "한국자연사박물관",
+        "en": "Korea National History Museum",
+        "ja": "韓国自然史博物館",
+        "zh": "韩国自然史博物馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "cafe"
+      ],
+      "lat": 36.3663553567,
+      "lon": 127.2450374456,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        1
+      ],
+      "indoor": true,
+      "cost": 3000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t126546",
+      "contentId": "126546",
+      "name": {
+        "ko": "성공사",
+        "en": "Seonggongsa Temple",
+        "ja": "成功寺",
+        "zh": "成功寺"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "rest"
+      ],
+      "lat": 36.5072742073,
+      "lon": 127.0716530379,
+      "region": "magok",
+      "stayMin": 60,
+      "open": "08:00",
+      "close": "17:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.425,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t126725",
+      "contentId": "126725",
+      "name": {
+        "ko": "계룡산 도자예술촌",
+        "en": "Gyeryongsan Ceramic Art Village",
+        "ja": "鶏龍山陶芸村",
+        "zh": "鸡龙山陶瓷艺术村"
+      },
+      "type": "spot",
+      "themes": [
+        "history"
+      ],
+      "lat": 36.39000604859124,
+      "lon": 127.2152329818195,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t3038621",
+      "contentId": "3038621",
+      "name": {
+        "ko": "말재 농원",
+        "en": "Maljae Farm",
+        "ja": "マルジェ農園",
+        "zh": "马岭农场"
+      },
+      "type": "spot",
+      "themes": [
+        "activity",
+        "nature"
+      ],
+      "lat": 36.41095312489959,
+      "lon": 127.22378714566642,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "17:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.125,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t3038651",
+      "contentId": "3038651",
+      "name": {
+        "ko": "웅진 백제 문화 역사관",
+        "en": "Woongjin Baekje Cultural History Museum",
+        "ja": "熊津百済文化歴史館",
+        "zh": "熊津百济文化历史馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "cafe"
+      ],
+      "lat": 36.46052611578204,
+      "lon": 127.11250769165848,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "17:30",
+      "closedDays": [],
+      "indoor": true,
+      "cost": 3000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.896,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t3545335",
+      "contentId": "3545335",
+      "name": {
+        "ko": "고마열차",
+        "en": "Goma Train",
+        "ja": "コマ列車",
+        "zh": "固麻列车"
+      },
+      "type": "spot",
+      "themes": [
+        "activity"
+      ],
+      "lat": 36.4634,
+      "lon": 127.126,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "10:00",
+      "close": "17:30",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.998,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t125817",
+      "contentId": "125817",
+      "name": {
+        "ko": "계룡산국립공원",
+        "en": "Gyeryongsan National Park",
+        "ja": "鶏龍山国立公園",
+        "zh": "鸡龙山国立公园"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "rest"
+      ],
+      "lat": 36.3568257226531,
+      "lon": 127.232444467616,
+      "region": "gyeryong",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2751024",
+      "contentId": "2751024",
+      "name": {
+        "ko": "기독교박물관",
+        "en": "Christian Museum",
+        "ja": "キリスト教博物館",
+        "zh": "基督教博物馆"
+      },
+      "type": "culture",
+      "themes": [
+        "history",
+        "cafe"
+      ],
+      "lat": 36.4509791105986,
+      "lon": 127.122505236361,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "10:00",
+      "close": "17:00",
+      "closedDays": [
+        0,
+        1
+      ],
+      "indoor": true,
+      "cost": 3000,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.884,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2732468",
+      "contentId": "2732468",
+      "name": {
+        "ko": "미르섬",
+        "en": "Mir Island",
+        "ja": "ミル島",
+        "zh": "美露岛"
+      },
+      "type": "spot",
+      "themes": [
+        "rest",
+        "nature"
+      ],
+      "lat": 36.47024551977537,
+      "lon": 127.12753885566673,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "00:00",
+      "close": "23:59",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.934,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t2736665",
+      "contentId": "2736665",
+      "name": {
+        "ko": "유구천핑크뮬리",
+        "en": "Yugucheon Pink Muhly Grass",
+        "ja": "維求川ピンクミューリー",
+        "zh": "维仇川粉黛乱子草"
+      },
+      "type": "spot",
+      "themes": [
+        "nature",
+        "rest"
+      ],
+      "lat": 36.5498,
+      "lon": 126.9563,
+      "region": "magok",
+      "stayMin": 60,
+      "open": "00:00",
+      "close": "23:59",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "t129574",
+      "contentId": "129574",
+      "name": {
+        "ko": "영은사(공주)",
+        "en": "Yeongeunsa Temple (Gongju)",
+        "ja": "霊隠寺(公州)",
+        "zh": "灵隐寺(公州)"
+      },
+      "type": "spot",
+      "themes": [
+        "history",
+        "rest"
+      ],
+      "lat": 36.4631527463514,
+      "lon": 127.128215468001,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [],
+      "indoor": false,
+      "cost": 0,
+      "parking": true,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.984,
+      "sources": {
+        "star": "placeholder",
+        "hours": "tourapi",
+        "transitAccess": "estimated"
+      }
+    }
+  ]
+}
