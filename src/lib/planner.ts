@@ -18,6 +18,8 @@ const MEALS: Meal[] = [
 export type PlanStop = {
   id: string;
   name: string;
+  lat: number; // S02-③ 지도 마커
+  lon: number;
   arrive: string; // "HH:MM"
   depart: string;
   travelMin: number; // 앞 장소에서 오는 이동 시간(추정) · 첫 장소는 0
@@ -123,6 +125,8 @@ export function makePlan({ mode, hours, themes }: Conditions): Plan {
     stops: visits.map((v) => ({
       id: v.place.id,
       name: v.place.name.ko,
+      lat: v.place.lat,
+      lon: v.place.lon,
       arrive: toClock(v.arrive),
       depart: toClock(v.depart),
       travelMin: v.travelMin,

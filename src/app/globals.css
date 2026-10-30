@@ -147,6 +147,25 @@ h1 {
   color: #57606a;
 }
 
+.course-map {
+  height: 240px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  isolation: isolate; /* Leaflet 레이어가 화면 다른 요소를 덮지 않게 */
+}
+
+.map-marker {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: #1f2328;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}
+
 .timetable {
   margin: 0 0 16px;
   padding: 0;
