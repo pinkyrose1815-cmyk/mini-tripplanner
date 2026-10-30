@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { MODES, THEMES } from "@/lib/conditions";
+import type { Narration } from "@/lib/narrate";
 import type { PlanReason, PlanResponse } from "@/lib/planner";
 
 // S02 ①~⑥ · 상태 4가지 — docs/SCREENS.md. 순서·시각은 /api/plan 그대로 보여 주고 화면에서 계산하지 않는다.
@@ -18,6 +19,11 @@ const REASON_TEXT: Record<PlanReason, string> = {
   travel_estimated: "이동 시간은 추정값이에요",
   hours_defaulted: "영업시간을 확인해 주세요",
 };
+
+const NARRATION_FALLBACK_TEXT = "AI 설명을 불러오지 못해 기본 설명을 보여 드려요";
+
+// S02-⑤ 상태 — null이면 불러오는 중, "failed"면 /api/narrate 자체에 닿지 못함
+type NarrationState = Narration | "failed" | null;
 
 type State =
   | { kind: "loading" }
@@ -41,6 +47,23 @@ export default function CourseView({ query }: { query: string }) {
       })
       .then((next) => !cancelled && setState(next))
       .catch(() => !cancelled && setState({ kind: "error" }));
+    return () => {
+      cancelled = true;
+    };
+  }, [query, attempt]);
+
+  // S02-⑤ 는 코스와 따로 불러온다 — 늦거나 실패해도 시간표는 먼저 보인다
+  const [narration, setNarration] = useState<NarrationState>(null);
+  useEffect(() => {
+    let cancelled = false;
+    setNarration(null);
+    fetch(`/api/narrate?${query}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(String(res.status));
+        return res.json() as Promise<Narration>;
+      })
+      .then((next) => !cancelled && setNarration(next))
+      .catch(() => !cancelled && setNarration("failed"));
     return () => {
       cancelled = true;
     };
@@ -108,6 +131,10 @@ export default function CourseView({ query }: { query: string }) {
     `${stops.length}곳`,
   ];
 
+  const notices = reasons.map((r) => REASON_TEXT[r]);
+  const narrationFailed = narration === "failed" || (narration !== null && narration.reason !== null);
+  if (narrationFailed) notices.push(NARRATION_FALLBACK_TEXT);
+
   return (
     <>
       {/* S02-① */}
@@ -118,9 +145,9 @@ export default function CourseView({ query }: { query: string }) {
       </ul>
 
       {/* S02-② */}
-      {reasons.length > 0 && (
+      {notices.length > 0 && (
         <p className="notice">
-          <strong>알아 두세요</strong> · {reasons.map((r) => REASON_TEXT[r]).join(" · ")}
+          <strong>알아 두세요</strong> · {notices.join(" · ")}
         </p>
       )}
 
@@ -146,8 +173,13 @@ export default function CourseView({ query }: { query: string }) {
         ))}
       </ol>
 
-      {/* S02-⑤ 3회차 */}
-      <div className="placeholder">AI 설명은 3회차에</div>
+      {/* S02-⑤ */}
+      <section className="narration" aria-live="polite">
+        <h2>코스 소개</h2>
+        {narration === null && <p className="narration-loading">설명을 쓰고 있어요…</p>}
+        {narration === "failed" && <p className="narration-loading">설명을 불러오지 못했어요</p>}
+        {narration !== null && narration !== "failed" && <p>{narration.value}</p>}
+      </section>
 
       {backButton}
     </>

@@ -222,3 +222,23 @@ h1 {
 .placeholder {
   margin-bottom: 16px;
 }
+
+.narration {
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #f6f8fa;
+}
+
+.narration h2 {
+  margin: 0 0 6px;
+  font-size: 0.9375rem;
+}
+
+.narration p {
+  margin: 0;
+}
+
+.narration-loading {
+  color: #57606a;
+}
