@@ -27,6 +27,8 @@ export type PlanStop = {
   arrive: string; // "HH:MM"
   depart: string;
   travelMin: number; // 앞 장소에서 오는 이동 시간(추정) · 첫 장소는 0
+  stayMin: number; // 머무는 시간 — 화면은 계산하지 않고 이 값을 보여 준다
+  waitMin: number; // 도착 후 개장·식사 시간까지 남는 여유
   meal: boolean;
 };
 
@@ -164,7 +166,7 @@ export function makePlan({ mode, hours, themes }: Conditions): Plan {
   if (themesRelaxed) reasons.push("themes_relaxed");
 
   return {
-    stops: visits.map((v) => ({
+    stops: visits.map((v, i) => ({
       id: v.place.id,
       name: v.place.name.ko,
       lat: v.place.lat,
@@ -172,6 +174,8 @@ export function makePlan({ mode, hours, themes }: Conditions): Plan {
       arrive: toClock(v.arrive),
       depart: toClock(v.depart),
       travelMin: v.travelMin,
+      stayMin: v.depart - v.arrive,
+      waitMin: v.arrive - (i > 0 ? visits[i - 1].depart : START) - v.travelMin,
       meal: v.meal,
     })),
     reasons,

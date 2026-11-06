@@ -355,6 +355,13 @@ h1 {
   font-weight: bold;
 }
 
+.stop-stay {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: normal;
+}
+
 .meal {
   margin-left: 6px;
   padding: 1px 6px;

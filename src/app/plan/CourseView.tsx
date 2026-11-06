@@ -159,7 +159,12 @@ export default function CourseView({ query }: { query: string }) {
       <ol className="timetable">
         {stops.map((stop, i) => (
           <li key={stop.id}>
-            {i > 0 && <p className="travel">이동 {stop.travelMin}분(추정)</p>}
+            {i > 0 && (
+              <p className="travel">
+                이동 {stop.travelMin}분(추정)
+                {stop.waitMin > 0 && ` · 여유 ${stop.waitMin}분`}
+              </p>
+            )}
             <div className="stop">
               <span className="stop-no">{i + 1}</span>
               <span className="stop-time">
@@ -168,6 +173,9 @@ export default function CourseView({ query }: { query: string }) {
               <span className="stop-name">
                 {stop.name}
                 {stop.meal && <em className="meal">식사</em>}
+                <small className="stop-stay">
+                  {stop.meal ? "식사" : "둘러보기"} {stop.stayMin}분
+                </small>
               </span>
             </div>
           </li>
