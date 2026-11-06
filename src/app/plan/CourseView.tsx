@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
+import CourseNarration, { type NarrationState } from "@/components/CourseNarration";
 import { MODES, THEMES } from "@/lib/conditions";
-import type { Narration } from "@/lib/narrate";
+import type { Narration } from "@/lib/narration";
 import type { PlanReason, PlanResponse } from "@/lib/planner";
 
 // S02 ①~⑥ · 상태 4가지 — docs/SCREENS.md. 순서·시각은 /api/plan 그대로 보여 주고 화면에서 계산하지 않는다.
@@ -21,10 +22,7 @@ const REASON_TEXT: Record<PlanReason, string> = {
   themes_relaxed: "고른 테마만으로 채우기 어려워 다른 장소도 넣었어요",
 };
 
-const NARRATION_FALLBACK_TEXT = "AI 설명을 불러오지 못해 기본 설명을 보여 드려요";
-
-// S02-⑤ 상태 — null이면 불러오는 중, "failed"면 /api/narrate 자체에 닿지 못함
-type NarrationState = Narration | "failed" | null;
+const NARRATION_FALLBACK_TEXT = "AI 설명을 받지 못해 기본 설명을 보여 드려요";
 
 type State =
   | { kind: "loading" }
@@ -183,12 +181,7 @@ export default function CourseView({ query }: { query: string }) {
       </ol>
 
       {/* S02-⑤ */}
-      <section className="narration" aria-live="polite">
-        <h2>코스 소개</h2>
-        {narration === null && <p className="narration-loading">설명을 쓰고 있어요…</p>}
-        {narration === "failed" && <p className="narration-loading">설명을 불러오지 못했어요</p>}
-        {narration !== null && narration !== "failed" && <p>{narration.value}</p>}
-      </section>
+      <CourseNarration narration={narration} stops={stops} />
 
       {backButton}
     </>

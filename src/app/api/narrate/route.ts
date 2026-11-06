@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { parseConditions } from "@/lib/conditions";
-import { narrate } from "@/lib/narrate";
+import { narrateCourse } from "@/lib/gemini";
 import { makePlan } from "@/lib/planner";
 
 // GET /api/narrate?mode=car&hours=6&themes=history,food → { value, reason }
@@ -12,5 +12,5 @@ export async function GET(request: NextRequest) {
   }
 
   const { stops } = makePlan(conditions);
-  return NextResponse.json(await narrate(conditions, stops));
+  return NextResponse.json(await narrateCourse({ conditions, stops }));
 }

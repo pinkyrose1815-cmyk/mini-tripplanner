@@ -5,4 +5,5 @@ next-env.d.ts
 *.tsbuildinfo
 
 # API 키는 .env.local 에만 두고 커밋하지 않는다 (CLAUDE.md 규칙 3)
-.env*.local
+.env*
+!.env.example

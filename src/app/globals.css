@@ -395,6 +395,17 @@ h1 {
   margin: 0;
 }
 
+.narration-stops,
+.narration-cautions {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  font-size: 0.875rem;
+}
+
+.narration-cautions {
+  color: var(--muted);
+}
+
 .narration-loading {
   color: #57606a;
 }

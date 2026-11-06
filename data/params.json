@@ -1,0 +1,7 @@
+{
+  "gemini": {
+    "model": "gemini-3.5-flash-lite",
+    "timeoutMs": 10000,
+    "thinkingLevel": "MINIMAL"
+  }
+}
