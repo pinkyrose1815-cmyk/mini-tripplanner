@@ -18,6 +18,7 @@ const CourseMap = dynamic(() => import("@/components/CourseMap"), {
 const REASON_TEXT: Record<PlanReason, string> = {
   travel_estimated: "이동 시간은 추정값이에요",
   hours_defaulted: "영업시간을 확인해 주세요",
+  themes_relaxed: "고른 테마만으로 채우기 어려워 다른 장소도 넣었어요",
 };
 
 const NARRATION_FALLBACK_TEXT = "AI 설명을 불러오지 못해 기본 설명을 보여 드려요";

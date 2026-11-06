@@ -24,10 +24,10 @@ const SYSTEM = `당신은 공주를 처음 찾는 가족에게 하루 여행 코
 export function basicNarration(conditions: Conditions, stops: PlanStop[]): string {
   const first = stops[0];
   const last = stops[stops.length - 1];
-  const meal = stops.find((s) => s.meal);
+  const meals = stops.filter((s) => s.meal).map((s) => `${s.arrive}에 ${s.name}`);
   return [
     `${first.name}에서 시작해 ${stops.length}곳을 둘러보는 ${conditions.hours}시간 코스예요.`,
-    meal ? `점심은 ${meal.arrive}에 ${meal.name}에서 먹어요.` : "",
+    meals.length > 0 ? `식사는 ${meals.join(", ")}에서 해요.` : "",
     `마지막으로 ${last.name}에 들렀다가 ${last.depart}에 일정을 마쳐요.`,
   ]
     .filter(Boolean)
@@ -37,7 +37,7 @@ export function basicNarration(conditions: Conditions, stops: PlanStop[]): strin
 function courseText(conditions: Conditions, stops: PlanStop[]): string {
   const mode = conditions.mode === "car" ? "자가용" : "도보·대중교통";
   const lines = stops.map(
-    (s, i) => `${i + 1}. ${s.arrive}~${s.depart} ${s.name}${s.meal ? " (점심 식사)" : ""}`,
+    (s, i) => `${i + 1}. ${s.arrive}~${s.depart} ${s.name}${s.meal ? " (식사)" : ""}`,
   );
   return `이동수단: ${mode} · 여행 시간: ${conditions.hours}시간\n코스:\n${lines.join("\n")}`;
 }
