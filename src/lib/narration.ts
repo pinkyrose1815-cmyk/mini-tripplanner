@@ -1,4 +1,5 @@
 import type { Conditions } from "./conditions";
+import { shortPlaceDetail } from "./placeDetails";
 import type { PlanStop } from "./planner";
 
 // S02-⑤ 코스 설명의 모양 · 답 검사 · 기본 설명. AI를 부르는 코드는 gemini.ts 에만 둔다.
@@ -7,7 +8,7 @@ export type NarrationStop = { placeId: string; why: string };
 
 export type NarrationValue = {
   summary: string;
-  stops: NarrationStop[]; // 장소마다 '왜 가 볼 만한지' 한 줄 — 기본 설명이면 비어 있다
+  stops: NarrationStop[]; // 장소마다 설명 — 기본 설명이면 자료의 앞 문장
   cautions: string[];
 };
 
@@ -24,7 +25,10 @@ export function basicNarration(conditions: Conditions, stops: PlanStop[]): Narra
   const sentences = [`${first.name}에서 시작해 ${sightCount}곳을 둘러보는 ${conditions.hours}시간 코스예요.`];
   if (meals.length > 0) sentences.push(`식사는 ${meals.join(", ")}에서 해요.`);
   sentences.push(`${last.name}에서 ${last.depart}에 일정을 마쳐요.`);
-  return { summary: sentences.join(" "), stops: [], cautions: [] };
+  const details = stops
+    .map((s) => ({ placeId: s.id, why: shortPlaceDetail(s.id) }))
+    .filter((s) => s.why.length > 0);
+  return { summary: sentences.join(" "), stops: details, cautions: [] };
 }
 
 function isText(value: unknown): value is string {
