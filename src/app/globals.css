@@ -289,9 +289,15 @@ h1 {
 
 .course-map {
   height: 240px;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   border-radius: 12px;
   isolation: isolate; /* Leaflet 레이어가 화면 다른 요소를 덮지 않게 */
+}
+
+.map-note {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.8125rem;
 }
 
 .map-marker {

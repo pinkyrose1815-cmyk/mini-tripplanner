@@ -46,5 +46,10 @@ export default function CourseMap({ stops }: { stops: PlanStop[] }) {
   }, [stops]);
 
   if (failed) return <div className="map-slot">지도를 불러오지 못했어요</div>;
-  return <div ref={containerRef} className="course-map" role="region" aria-label="코스 지도" />;
+  return (
+    <>
+      <div ref={containerRef} className="course-map" role="region" aria-label="코스 지도" />
+      <p className="map-note">점선은 순서를 잇는 직선이에요 — 실제 길은 아닙니다</p>
+    </>
+  );
 }

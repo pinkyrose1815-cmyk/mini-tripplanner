@@ -10,7 +10,7 @@ import type { PlanReason, PlanResponse } from "@/lib/planner";
 // S02 ①~⑥ · 상태 4가지 — docs/SCREENS.md. 순서·시각은 /api/plan 그대로 보여 주고 화면에서 계산하지 않는다.
 
 // Leaflet은 브라우저에서만 동작하므로 화면을 그린 뒤에 불러온다
-const CourseMap = dynamic(() => import("./CourseMap"), {
+const CourseMap = dynamic(() => import("@/components/CourseMap"), {
   ssr: false,
   loading: () => <div className="map-slot">지도를 불러오는 중…</div>,
 });
