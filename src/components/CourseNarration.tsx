@@ -4,7 +4,7 @@ import type { PlanStop } from "@/lib/planner";
 // S02-⑤ 상태 — null이면 불러오는 중, "failed"면 /api/narrate 자체에 닿지 못함
 export type NarrationState = Narration | "failed" | null;
 
-// S02-⑤ 코스 설명 — 표시만 한다. 장소 이름은 시간표(/api/plan)의 값을 쓴다.
+// S02-⑤ 코스 설명 — 표시만 한다. 번호·이름·시각은 시간표(/api/plan)의 값을 쓴다.
 export default function CourseNarration({ narration, stops }: { narration: NarrationState; stops: PlanStop[] }) {
   const loaded = narration !== null && narration !== "failed" ? narration : null;
   const fromAi = loaded?.reason === null;
@@ -16,13 +16,20 @@ export default function CourseNarration({ narration, stops }: { narration: Narra
       {narration === "failed" && <p className="narration-loading">설명을 불러오지 못했어요</p>}
       {loaded && <p>{loaded.value.summary}</p>}
       {loaded && loaded.value.stops.length > 0 && (
-        <ul className="narration-stops">
-          {loaded.value.stops.map((s) => (
-            <li key={s.placeId}>
-              <strong>{stops.find((stop) => stop.id === s.placeId)?.name}</strong> {s.why}
-            </li>
-          ))}
-        </ul>
+        <ol className="narration-stops">
+          {stops.map((stop, i) => {
+            const why = loaded.value.stops.find((s) => s.placeId === stop.id)?.why;
+            if (!why) return null;
+            return (
+              <li key={stop.id}>
+                <span className="narration-no">{i + 1}</span>
+                <p>
+                  <strong>{stop.name}</strong> — {stop.arrive}~{stop.depart} · {why}
+                </p>
+              </li>
+            );
+          })}
+        </ol>
       )}
       {loaded && loaded.value.cautions.length > 0 && (
         <ul className="narration-cautions">
@@ -31,6 +38,7 @@ export default function CourseNarration({ narration, stops }: { narration: Narra
           ))}
         </ul>
       )}
+      {loaded && <p className="narration-source">장소 정보: 한국관광공사 TourAPI · 직접 조사</p>}
     </section>
   );
 }

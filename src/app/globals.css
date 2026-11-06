@@ -395,15 +395,47 @@ h1 {
   margin: 0;
 }
 
-.narration-stops,
-.narration-cautions {
-  margin: 10px 0 0;
-  padding-left: 18px;
+.narration-stops {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.narration-stops li {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.narration-stops p {
+  min-width: 0;
   font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.narration-no {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  line-height: 24px;
+  text-align: center;
 }
 
 .narration-cautions {
+  margin: 12px 0 0;
+  padding-left: 18px;
   color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.narration .narration-source {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .narration-loading {
