@@ -8,6 +8,7 @@ const START = toMinutes("10:00");
 const MAX_OPEN_WAIT_MIN = 30; // 개장 전 기다릴 수 있는 최대 시간
 const MIN_TRANSIT_ACCESS = 0.3;
 const MIN_SIGHT_STAY_MIN = 90; // 명소·문화시설을 둘러보는 최소 시간
+const MIN_CAFE_STAY_MIN = 60; // 카페 최소 시간
 const SHORT_STAY_MIN = 45; // 데이터 체류 시간이 이보다 짧으면 작은 장소로 본다
 const MEAL_MIN = 60; // 식사 시간
 const MAX_SIGHTS: Record<Conditions["hours"], number> = { 3: 2, 6: 3, 9: 4 }; // 식사·카페를 뺀 장소 수 상한
@@ -42,9 +43,10 @@ export type PlanResponse = Plan & { conditions: Conditions };
 
 type Visit = { place: Place; arrive: number; depart: number; travelMin: number; meal: boolean };
 
-// 머무는 시간 — 데이터 값이 짧아도 둘러볼 시간과 식사 시간은 보장한다. 카페는 데이터 값 그대로.
+// 머무는 시간 — 데이터 값이 짧아도 둘러볼 시간과 식사 시간은 보장한다.
+// 모든 장소가 60분 이상이므로 다음 장소 도착까지 60분 이상 — 1시간에 최대 1곳 (docs/PLAN.md 결정 로그)
 function stayFor(place: Place): number {
-  if (place.type === "cafe") return place.stayMin;
+  if (place.type === "cafe") return Math.max(place.stayMin, MIN_CAFE_STAY_MIN);
   return Math.max(place.stayMin, place.type === "restaurant" ? MEAL_MIN : MIN_SIGHT_STAY_MIN);
 }
 
