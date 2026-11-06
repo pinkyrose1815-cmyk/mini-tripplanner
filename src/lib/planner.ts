@@ -63,7 +63,7 @@ export function makePlan({ mode, hours, themes }: Conditions): Plan {
   const restaurants = usable.filter((p) => p.type === "restaurant");
   // 시간창 시작 후 식사 시간이 여행 시간 안에 들어가면 식사를 넣는다
   const pendingMeals = MEALS.filter((m) => START <= m.start && end >= m.start + MEAL_MIN);
-  const wantsCafe = (themes as string[]).includes("cafe");
+  const wantsCafe = (themes as string[]).some((t) => t === "cafe" || t === "food");
 
   const used = new Set<string>();
   const visits: Visit[] = [];
@@ -94,13 +94,19 @@ export function makePlan({ mode, hours, themes }: Conditions): Plan {
     )[0];
   }
 
-  // 관광 고르기: 명소 → 문화시설 → 카페 순. 카페를 고른 사람은 식사 직후 한 번 카페부터.
+  // 관광 고르기: 아직 코스에 없는 고른 테마를 많이 채우는 곳 → 명소 → 문화시설 → 카페 순.
+  // 카페·먹거리를 고른 사람은 식사 직후 한 번 카페부터 (식당이 아닌 먹거리 장소는 카페뿐이다).
   function pickSight(options: Visit[], from: { lat: number; lon: number }, afterMeal: boolean): Visit {
+    const covered = new Set(visits.filter((v) => !v.meal).flatMap((v) => v.place.themes));
+    const uncovered = (themes as string[]).filter((t) => !covered.has(t));
     const rank = (v: Visit) => {
-      if (v.place.type === "cafe") return wantsCafe && afterMeal ? -1 : 2;
+      if (v.place.type === "cafe" && wantsCafe && afterMeal) return -100;
+      const fills = v.place.themes.filter((t) => uncovered.includes(t)).length;
+      let base = v.place.type === "spot" ? 0 : 1;
       // 데이터 체류 시간이 아주 짧은 곳은 둘러볼 거리가 적으니 뒤로 미룬다
-      if (v.place.stayMin < SHORT_STAY_MIN) return 1.5;
-      return v.place.type === "spot" ? 0 : 1;
+      if (v.place.stayMin < SHORT_STAY_MIN) base = 1.5;
+      if (v.place.type === "cafe") base = 2;
+      return base - fills * 10;
     };
     const best = Math.min(...options.map(rank));
     return nearest(options.filter((v) => rank(v) === best), from);
