@@ -9,7 +9,7 @@ export function getPlaceDetail(id: string): string {
   return details[id]?.text ?? "";
 }
 
-const SHORT_CHARS = 120;
+const SHORT_CHARS = 70;
 
 // AI 설명이 없을 때 화면에 보여 줄 짧은 설명 — 자료의 앞 문장을 그대로 쓴다
 export function shortPlaceDetail(id: string): string {

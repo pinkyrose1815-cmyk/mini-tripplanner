@@ -56,10 +56,10 @@ function buildPrompt({ conditions, stops }: Course): string {
 - "하루"라고 쓰지 않습니다. 코스 길이는 여행 시간 값으로만 말합니다.
 
 쓸 내용:
-- summary: 코스의 흐름을 2~3문장으로 설명합니다.
-- stops: 목록의 장소마다 빠짐없이 placeId 와 why 를 씁니다. why 는 이 장소가 어떤 곳이고 무엇을 볼 수 있는지 자료를 바탕으로 2~3문장으로 설명합니다. 장소 이름과 시각은 화면에 따로 나오므로 다시 쓰지 않습니다. 자료가 짧으면 짧게 씁니다.
-- 식당·카페의 why 는 자료에 있는 메뉴나 특징을 설명합니다.
-- cautions: 방문 전에 확인하면 좋은 점을 단정 없이 0~2개 씁니다.
+- summary: 코스의 흐름을 한 문장, 40자 안팎으로 씁니다. 장소별 세부 사실은 넣지 않습니다.
+- stops: 목록의 장소마다 빠짐없이 placeId 와 why 를 씁니다. why 는 이 장소가 어떤 곳인지 핵심만 한 문장, 40자 안팎으로 씁니다. 장소 이름과 시각은 화면에 따로 나오므로 다시 쓰지 않습니다.
+- 식당·카페의 why 는 자료에 있는 대표 메뉴나 특징 하나만 씁니다.
+- cautions: 방문 전에 확인하면 좋은 점을 단정 없이 1개만 씁니다.
 
 여행 시간: ${conditions.hours}시간
 고른 테마: ${conditions.themes.length > 0 ? THEMES.filter((t) => conditions.themes.includes(t.value)).map((t) => t.label).join("·") : "모든 테마"}
