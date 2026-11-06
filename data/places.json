@@ -1,7 +1,7 @@
 {
   "meta": {
     "generatedAt": "2026-09-28T05:40:26.603Z",
-    "count": 64,
+    "count": 72,
     "starSource": "placeholder"
   },
   "places": [
@@ -2204,6 +2204,299 @@
         "star": "placeholder",
         "hours": "tourapi",
         "transitAccess": "estimated"
+      }
+    },
+    {
+      "id": "s27",
+      "contentId": null,
+      "name": {
+        "ko": "곰골식당",
+        "en": "곰골식당",
+        "ja": "곰골식당",
+        "zh": "곰골식당"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4526,
+      "lon": 127.1207,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.902,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s28",
+      "contentId": null,
+      "name": {
+        "ko": "진흥각",
+        "en": "진흥각",
+        "ja": "진흥각",
+        "zh": "진흥각"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4542,
+      "lon": 127.1256,
+      "region": "wondosim",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.912,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s29",
+      "contentId": null,
+      "name": {
+        "ko": "동해원",
+        "en": "동해원",
+        "ja": "동해원",
+        "zh": "동해원"
+      },
+      "type": "restaurant",
+      "themes": [
+        "food"
+      ],
+      "lat": 36.4357,
+      "lon": 127.1593,
+      "region": "other",
+      "stayMin": 60,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.509,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s31",
+      "contentId": null,
+      "name": {
+        "ko": "망중한 커피앤티",
+        "en": "망중한 커피앤티",
+        "ja": "망중한 커피앤티",
+        "zh": "망중한 커피앤티"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.4516,
+      "lon": 127.1226,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.884,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s32",
+      "contentId": null,
+      "name": {
+        "ko": "엔학고레",
+        "en": "엔학고레",
+        "ja": "엔학고레",
+        "zh": "엔학고레"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.4674,
+      "lon": 127.2407,
+      "region": "gyeryong",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.509,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s36",
+      "contentId": null,
+      "name": {
+        "ko": "부자떡집",
+        "en": "부자떡집",
+        "ja": "부자떡집",
+        "zh": "부자떡집"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.4566,
+      "lon": 127.1261,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.924,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s37",
+      "contentId": null,
+      "name": {
+        "ko": "체스넛프렌즈",
+        "en": "체스넛프렌즈",
+        "ja": "체스넛프렌즈",
+        "zh": "체스넛프렌즈"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.4503,
+      "lon": 127.1235,
+      "region": "wondosim",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.884,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
+      }
+    },
+    {
+      "id": "s39",
+      "contentId": null,
+      "name": {
+        "ko": "숲너울 카페",
+        "en": "숲너울 카페",
+        "ja": "숲너울 카페",
+        "zh": "숲너울 카페"
+      },
+      "type": "cafe",
+      "themes": [
+        "food",
+        "cafe"
+      ],
+      "lat": 36.5684,
+      "lon": 126.9749,
+      "region": "other",
+      "stayMin": 45,
+      "open": null,
+      "close": null,
+      "closedDays": [],
+      "indoor": true,
+      "cost": null,
+      "parking": null,
+      "star": null,
+      "reviews": 0,
+      "adjStar": 4.3,
+      "transitAccess": 0.05,
+      "sources": {
+        "star": "placeholder",
+        "hours": "missing",
+        "transitAccess": "estimated",
+        "place": "user_csv",
+        "stayMin": "default",
+        "name": "ko_only"
       }
     }
   ]

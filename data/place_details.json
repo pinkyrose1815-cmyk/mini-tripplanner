@@ -2,7 +2,8 @@
   "meta": {
     "note": "scripts/build_place_details.mjs 로 생성 — 직접 고치지 않는다",
     "tourapi": "한국관광공사 TourAPI detailCommon2 overview (2026-09 수집)",
-    "seed": "강사 원본 앱 data/seed/spots_clean.csv 한 줄 설명"
+    "seed": "강사 원본 앱 data/seed/spots_clean.csv 한 줄 설명",
+    "user_csv": "사용자 제공 목록 data/seed/hotplaces.csv 의 한 줄 설명"
   },
   "details": {
     "t125949": {
@@ -260,6 +261,38 @@
     "t129574": {
       "text": "영은사는 ‘공산지’에 의하면 조선 세조 4년(1458)에 지은 사찰이며 광해군 8년(1616)에는 이곳에 승장을 두어 전국의 사찰을 두어 전국의 사찰을 통치하였다는 기록이 있다. 이곳은 원통전과 강당 격인 영은사 관일루, 요사채 건물로 구성되어 있다. 원통전 앞에 영은사 관일루가 배치되어 있다. 특히 이곳은 가을에 볼 수 있는 은행나무와 어우러지는 영은사의 풍경이 멋있는 곳으로 알려져 있다. 또한 공주시의 전경은 물론 금강을 한눈에 조망할 수 있는 곳이다.",
       "source": "tourapi"
+    },
+    "s27": {
+      "text": "참숯제육구이·생선구이 가성비 백반",
+      "source": "user_csv"
+    },
+    "s28": {
+      "text": "맑고 담백한 노포 짬뽕",
+      "source": "user_csv"
+    },
+    "s29": {
+      "text": "전국 5대 짬뽕, 진한 고기 베이스 국물",
+      "source": "user_csv"
+    },
+    "s31": {
+      "text": "제민천 감성 한옥 카페, 밤아이스크림",
+      "source": "user_csv"
+    },
+    "s32": {
+      "text": "불장골저수지 액자 뷰 숲속 힐링 카페",
+      "source": "user_csv"
+    },
+    "s36": {
+      "text": "산성시장 필수 코스, 알밤모찌·바람떡",
+      "source": "user_csv"
+    },
+    "s37": {
+      "text": "ㄷ자 한옥 감성 베이커리 카페, 밤우유",
+      "source": "user_csv"
+    },
+    "s39": {
+      "text": "유구 광덕산 수영장·루프탑 숲속 힐링 카페",
+      "source": "user_csv"
     }
   }
 }

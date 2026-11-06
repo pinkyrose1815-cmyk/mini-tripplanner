@@ -80,6 +80,20 @@ for (const place of places) {
   }
 }
 
+// 사용자 장소 목록(scripts/merge_hotplaces.mjs 로 병합)의 설명을 유지한다
+const userCsv = "data/seed/hotplaces.csv";
+if (existsSync(userCsv)) {
+  const [head, ...rows] = readFileSync(userCsv, "utf8").replace(/^﻿/, "").split(/\r?\n/).filter(Boolean);
+  const keys = parseCsvLine(head);
+  for (const row of rows) {
+    const cells = parseCsvLine(row);
+    const id = cells[keys.indexOf("id")];
+    if (!details[id] && places.some((p) => p.id === id)) {
+      details[id] = { text: cells[keys.indexOf("description")], source: "user_csv" };
+    }
+  }
+}
+
 writeFileSync(
   "data/place_details.json",
   JSON.stringify(
@@ -88,6 +102,7 @@ writeFileSync(
         note: "scripts/build_place_details.mjs 로 생성 — 직접 고치지 않는다",
         tourapi: "한국관광공사 TourAPI detailCommon2 overview (2026-09 수집)",
         seed: "강사 원본 앱 data/seed/spots_clean.csv 한 줄 설명",
+        user_csv: "사용자 제공 목록 data/seed/hotplaces.csv 의 한 줄 설명",
       },
       details,
     },
